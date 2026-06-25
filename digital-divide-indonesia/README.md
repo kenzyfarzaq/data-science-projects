@@ -187,9 +187,10 @@ The poverty rate and internet access across provinces in Indonesia in 2024 are n
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+> This project is part of a larger collection repository. Clone the collection repo first (see the root README), then navigate into this folder.
+
+1. Navigate to this project folder:
 ```bash
-git clone https://github.com/kenzyfarzq/digital-divide-indonesia.git
 cd digital-divide-indonesia
 ```
 
@@ -207,7 +208,6 @@ pip install -r requirements.txt
 4. Download the two datasets from the links in the [Dataset](#-dataset) section, then place them in `data/raw/`.
 
 5. **Important, reproducibility note**: the original notebook was developed in Google Colab and uses the file upload widget (`google.colab.files.upload()`) in section 1.2. To run it locally (Jupyter/VS Code), replace that cell with direct file reading from a local folder:
-
 ```python
 df_internet_raw = pd.read_csv('data/raw/internet_access_2024.csv', skiprows=3, encoding='utf-8')
 df_kemiskinan_raw = pd.read_csv('data/raw/poverty_rate_2024.csv', skiprows=4, encoding='utf-8')
