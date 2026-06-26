@@ -20,7 +20,6 @@ This project applies nine discrete mathematics concepts in an integrated way to 
 
 **Project Context:** This project was completed as a university group assignment. The complete implementation, data processing, and analytical workflow presented in this repository were developed by me, while the written report was prepared by other group members as part of the original submission.
 
-
 ## ❓ Problem Statement
 
 **Context:** Staple food price spikes ahead of Lebaran and Tahun Baru are a recurring phenomenon that affects the purchasing power of the East Java population. Official SISKAPERBAPO data records daily prices per commodity, but it has so far only been used for descriptive reporting, without formal modeling capable of producing measurable decision rules or probabilistic predictions.
