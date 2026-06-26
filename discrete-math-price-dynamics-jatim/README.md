@@ -18,6 +18,9 @@
 
 This project applies nine discrete mathematics concepts in an integrated way to model the price dynamics of 10 staple food commodities in East Java during the periods leading up to Tahun Baru (New Year) and Lebaran (Eid Al-Fitr), using weekly SISKAPERBAPO data (covering weeks −4 through +4 relative to each event). From the `36 baris × 13 kolom` wide-format data that was loaded, a `melt` transformation produces `360 observations`, which after deduplication based on the event-commodity-week combination become `180 observations` valid for analysis. The analytical pipeline classifies each observation into one of 4 discrete market states via an FSM with adaptive, quantile-based thresholds, mathematically validates the recursive prediction formula via induction, and quantifies market state transition probabilities using Markov Chains. The final output consists of `11 visualisasi komprehensif`, a state transition matrix, a Venn diagram of set operations, and a `rekomendasi_per_komoditas.csv` file that classifies the 10 commodities into 4 risk levels with estimated potential savings per commodity.
 
+**Project Context:** This project was completed as a university group assignment. The complete implementation, data processing, and analytical workflow presented in this repository were developed by me, while the written report was prepared by other group members as part of the original submission.
+
+
 ## ❓ Problem Statement
 
 **Context:** Staple food price spikes ahead of Lebaran and Tahun Baru are a recurring phenomenon that affects the purchasing power of the East Java population. Official SISKAPERBAPO data records daily prices per commodity, but it has so far only been used for descriptive reporting, without formal modeling capable of producing measurable decision rules or probabilistic predictions.
