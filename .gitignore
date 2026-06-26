@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# OS
+.DS_Store
+
+# Raw datasets (downloaded manually per project, see each project's README)
+**/data/raw/*.csv
+
+# Keep folder structure
+!**/data/raw/.gitkeep
+!**/data/processed/.gitkeep
+!**/outputs/figures/.gitkeep
