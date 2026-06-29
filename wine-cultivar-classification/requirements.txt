@@ -1,4 +1,4 @@
-# Requirements — multivariate-statistical-analysis-wine
+# Requirements — wine-cultivar-classification
 # Install: pip install -r requirements.txt
 
 # Data Access
